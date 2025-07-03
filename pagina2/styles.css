@@ -109,11 +109,11 @@ h2 {
 
 /* Ajusta las posiciones para que estén más juntos */
 .memory-card:nth-child(1) { top: 20%; left: 18%; animation-delay: 0s; }
-.memory-card:nth-child(2) { top: 35%; left: 48%; animation-delay: 1s; }
-.memory-card:nth-child(3) { top: 45%; left: 28%; animation-delay: 2s; }
-.memory-card:nth-child(4) { top: 65%; left: 38%; animation-delay: 0.5s; }
-.memory-card:nth-child(5) { top: 75%; left: 58%; animation-delay: 1.5s; }
-.memory-card:nth-child(6) { top: 85%; left: 22%; animation-delay: 2.5s; }
+.memory-card:nth-child(2) { top: 30%; left: 48%; animation-delay: 1s; }
+.memory-card:nth-child(3) { top: 40%; left: 28%; animation-delay: 2s; }
+.memory-card:nth-child(4) { top: 50%; left: 38%; animation-delay: 0.5s; }
+.memory-card:nth-child(5) { top: 60%; left: 58%; animation-delay: 1.5s; }
+.memory-card:nth-child(6) { top: 70%; left: 22%; animation-delay: 2.5s; }
 /* Ajusta o agrega más según la cantidad de recuerdos */
 
 .memory-card.visible {
