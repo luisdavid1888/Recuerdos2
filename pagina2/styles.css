@@ -427,7 +427,7 @@ h2 {
         max-width: 90vw !important;
         min-width: 0 !important;
         margin-left: 0 !important;
-        margin-right: 10vw !important; /* mueve la imagen un poco a la izquierda */
+        margin-right: 1vw !important; /* mueve la imagen un poco a la izquierda */
         display: block !important;
         border-radius: 10px !important;
         object-fit: cover !important;
@@ -439,7 +439,7 @@ h2 {
         max-width: 90vw !important;
         min-width: 0 !important;
         margin-left: 0 !important;
-        margin-right: 10vw !important; /* mueve el texto un poco a la izquierda */
+        margin-right: 1vw !important; /* mueve el texto un poco a la izquierda */
         display: block !important;
         font-size: 1.05rem !important;
         padding: 0.8rem 0.7rem !important;
