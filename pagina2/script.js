@@ -37,9 +37,11 @@ function showMemory(index) {
         showGallery(memory.gallery, memory.text);
     } else {
         document.getElementById('memory-detail').innerHTML = `
-            <div class="memory-content">
-                <img src="${memory.photo}" alt="Foto recuerdo" class="memory-photo">
-                <div class="memory-text">${memory.text}</div>
+            <div class="memory-content gallery-layout">
+                <div class="gallery-media">
+                    <img src="${memory.photo}" alt="Foto recuerdo" class="memory-photo">
+                    <div class="memory-text">${memory.text}</div>
+                </div>
             </div>
         `;
     }
