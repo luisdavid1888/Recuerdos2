@@ -52,6 +52,29 @@ function showGallery(gallery, text) {
     let current = 0;
     renderGallery();
 
+    // --- Soporte de swipe táctil ---
+    let startX = null;
+    const modal = document.getElementById('memory-modal');
+    modal.ontouchstart = function(e) {
+        if (e.touches.length === 1) startX = e.touches[0].clientX;
+    };
+    modal.ontouchend = function(e) {
+        if (startX === null) return;
+        let endX = e.changedTouches[0].clientX;
+        let diff = endX - startX;
+        if (Math.abs(diff) > 50) { // umbral mínimo de swipe
+            if (diff > 0 && current > 0) {
+                current--;
+                renderGallery();
+            } else if (diff < 0 && current < gallery.length - 1) {
+                current++;
+                renderGallery();
+            }
+        }
+        startX = null;
+    };
+    // --- Fin soporte swipe ---
+
     function renderGallery() {
         const item = gallery[current];
         let mediaHtml = "";

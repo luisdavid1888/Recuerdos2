@@ -421,123 +421,31 @@ h2 {
     margin-bottom: 2.2rem;
 }
 
-/* Adaptación móvil */
 @media (max-width: 600px) {
-    html, body {
-        font-size: 18px;
-        overflow-x: hidden;
-    }
-
-    .memorial-header {
-        padding: 1.2rem 0 1rem 0;
-    }
-
-    .memorial-photo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .memorial-info h1,
-    h1 {
-        font-size: 1.3rem !important;
-    }
-
-    .memorial-dates,
-    .memorial-description {
-        font-size: 1rem !important;
-    }
-
-    .acceso-bloque {
-        margin: 1.2rem 0 1.2rem 0;
-    }
-
-    .acceso-content {
-        font-size: 1rem;
-        padding: 1.2rem 1rem;
-    }
-
-    .sky {
-        min-height: 120vh;
-        padding-bottom: 2rem;
-    }
-
-    .memory-card {
-        width: 94vw !important;
-        height: 54px !important;
-        font-size: 1.08rem !important;
-        margin: 0.5rem auto !important;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    .memory-card.visible {
-        opacity: 1;
-        transform: none;
-    }
-
-    .memory-content,
-    .gallery-layout {
-        flex-direction: column !important;
-        align-items: center !important;
-        justify-content: flex-start !important;
-        gap: 0.5rem !important;
-        width: 100vw !important;
-        padding: 0 !important;
-    }
-
     .memory-photo {
-        width: 90vw !important;
-        max-width: 350px !important;
+        width: 86vw !important;
+        max-width: 90vw !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 9vw !important; /* mueve la imagen un poco a la izquierda */
+        display: block !important;
+        border-radius: 10px !important;
+        object-fit: cover !important;
         height: auto !important;
         max-height: 32vh !important;
-        border-radius: 10px !important;
-        margin-bottom: 0.5rem !important;
-        object-fit: cover !important;
     }
-
-    /* Solo para imágenes de recuerdos normales (no galería) */
-    .memory-content:not(.gallery-layout) .memory-photo {
-        margin-bottom: 1.2rem !important;
-    }
-
     .memory-text {
-        width: 90vw !important;
-        max-width: 350px !important;
-        font-size: 1.13rem !important;
+        width: 86vw !important;
+        max-width: 90vw !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 9vw !important; /* mueve el texto un poco a la izquierda */
+        display: block !important;
+        font-size: 1.05rem !important;
         padding: 0.8rem 0.7rem !important;
         border-radius: 9px !important;
-        margin: 0.3rem 0 0.5rem 0 !important;
         line-height: 1.5 !important;
         text-align: center !important;
     }
-
-    .gallery-arrow {
-        width: 34px !important;
-        height: 34px !important;
-        font-size: 1.2rem !important;
-        margin: 0 0.4rem !important;
-    }
-
-    .gallery-caption {
-        font-size: 0.98rem !important;
-        margin-top: 0.3rem !important;
-    }
-
-    .creditos-bloque {
-        font-size: 1rem !important;
-        padding: 0.7rem 0 0.5rem 0 !important;
-    }
-
-    #music-toggle {
-        width: 36px !important;
-        height: 36px !important;
-        font-size: 1.1rem !important;
-        bottom: 10px !important;
-        right: 10px !important;
-    }
-
-    .close {
-        font-size: 2rem !important;
-        top: 8px !important;
-        right: 10px !important;
-    }
 }
+
