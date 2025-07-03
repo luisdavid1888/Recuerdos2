@@ -421,13 +421,13 @@ h2 {
     margin-bottom: 2.2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .memory-photo {
         width: 86vw !important;
         max-width: 90vw !important;
         min-width: 0 !important;
         margin-left: 0 !important;
-        margin-right: 9vw !important; /* mueve la imagen un poco a la izquierda */
+        margin-right: 8vw !important; /* mueve la imagen un poco a la izquierda */
         display: block !important;
         border-radius: 10px !important;
         object-fit: cover !important;
@@ -439,7 +439,7 @@ h2 {
         max-width: 90vw !important;
         min-width: 0 !important;
         margin-left: 0 !important;
-        margin-right: 9vw !important; /* mueve el texto un poco a la izquierda */
+        margin-right: 8vw !important; /* mueve el texto un poco a la izquierda */
         display: block !important;
         font-size: 1.05rem !important;
         padding: 0.8rem 0.7rem !important;
